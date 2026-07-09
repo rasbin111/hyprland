@@ -19,3 +19,8 @@ sudo pacman -S nwg-look
 ```bash
 sudo pacman -S ark unzip unrar p7zip
 ```
+
+5. Ubuntu fonts
+```bash
+sudo pacman -S ttf-ubuntu-font-family
+```
