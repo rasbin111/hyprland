@@ -29,3 +29,8 @@ sudo pacman -S ttf-ubuntu-font-family
 ```bash
 sudo pacman -S noto-fonts noto-fonts-emoji ttf-liberation ttf-dejavu
 ```
+
+# Setup
+
+## Postman 
+for postman setup, location: ~/.local/share/applications/postman.desktop

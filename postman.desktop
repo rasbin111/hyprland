@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Postman
+Icon=/home/rgt/softwares/Postman/app/icons/icon_128x128.png
+Exec=/home/rgt/softwares/Postman/Postman --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations %U
+Comment=Supercharge your API workflow
+OnlyShowIn=Unity;GNOME;
+StartupNotify=false
+StartupWMClass=Postman
+X-UnityGenerated=true
+Categories=Development;IDE;
