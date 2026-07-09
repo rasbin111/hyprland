@@ -12,5 +12,11 @@ hl.bind(mainMod .. " + D", hl.dsp.focus({ workspace = "empty" }))
 
 local menu = "fuzzel"
 
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
+hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({
+    mode = "maximized",
+    action = "toggle",
+}))
+
 
 
