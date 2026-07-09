@@ -24,3 +24,8 @@ sudo pacman -S ark unzip unrar p7zip
 ```bash
 sudo pacman -S ttf-ubuntu-font-family
 ```
+
+6. Fonts - for firefox to look normal
+```bash
+sudo pacman -S noto-fonts noto-fonts-emoji ttf-liberation ttf-dejavu
+```
