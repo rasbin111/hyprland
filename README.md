@@ -9,3 +9,8 @@ sudo pacman -S fuzzel
 ```bash
 sudo pacman -S waybar
 ```
+
+3. GTK - Theme manager
+```bash
+sudo pacman -S nwg-look
+```
