@@ -14,3 +14,8 @@ sudo pacman -S waybar
 ```bash
 sudo pacman -S nwg-look
 ```
+
+4. Archiv options (Dolphine file manager)
+```bash
+sudo pacman -S ark unzip unrar p7zip
+```
