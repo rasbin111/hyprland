@@ -30,6 +30,12 @@ sudo pacman -S ttf-ubuntu-font-family
 sudo pacman -S noto-fonts noto-fonts-emoji ttf-liberation ttf-dejavu
 ```
 
+7. Waypaper - Wallpaper changer
+```bash
+sudo pacman -S hyprpaper
+yay -S waypaper
+```
+
 # Setup
 
 ## Postman 
