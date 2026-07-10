@@ -40,6 +40,10 @@ yay -S waypaper
 ```bash
 sudo pacman -S hyprshot
 ```
+9. Treesiter CLI - for neovim Treesiter
+```bash
+sudo pacman -S tree-sitter-cli
+```
 
 # Setup
 
