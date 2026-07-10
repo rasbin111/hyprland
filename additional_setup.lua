@@ -19,4 +19,15 @@ hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({
 }))
 
 
+-- NEW(impl on office pc)
+-- Capture a selected region and copy it directly to the clipboard
+hl.bind("" .. " + Print", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
 
+-- Capture a selected region and save it to your Screenshots folder
+hl.bind("SHIFT" .. " + Print", hl.dsp.exec_cmd("hyprshot -m region -o ~/Pictures/Screenshots"))
+
+-- Capture the currently active window and save it to your Screenshots folder
+hl.bind("ALT" .. " + Print", hl.dsp.exec_cmd("hyprshot -m window -o ~/Pictures/Screenshots"))
+
+-- Capture the entire monitor output
+hl.bind("SUPER"

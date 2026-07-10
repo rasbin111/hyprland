@@ -33,7 +33,12 @@ sudo pacman -S noto-fonts noto-fonts-emoji ttf-liberation ttf-dejavu
 7. Waypaper - Wallpaper changer
 ```bash
 sudo pacman -S hyprpaper
+
 yay -S waypaper
+```
+8. Hyprshot - Screenshot
+```bash
+sudo pacman -S hyprshot
 ```
 
 # Setup
