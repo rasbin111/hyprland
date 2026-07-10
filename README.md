@@ -51,6 +51,11 @@ sudo pacman -S hyprlock
 sudo pacman -S hypridle
 ```
 
+11. Image viewer 
+```bash
+sudo pacman -S swayimg
+```
+
 
 # Setup
 
