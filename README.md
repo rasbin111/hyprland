@@ -44,6 +44,13 @@ sudo pacman -S hyprshot
 ```bash
 sudo pacman -S tree-sitter-cli
 ```
+10. Screenlock
+For hyprlock we need ~/.conf/hypr/hyprlock.conf
+```bash
+sudo pacman -S hyprlock
+sudo pacman -S hypridle
+```
+
 
 # Setup
 

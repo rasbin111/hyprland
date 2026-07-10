@@ -30,4 +30,13 @@ hl.bind("SHIFT" .. " + Print", hl.dsp.exec_cmd("hyprshot -m region -o ~/Pictures
 hl.bind("ALT" .. " + Print", hl.dsp.exec_cmd("hyprshot -m window -o ~/Pictures/Screenshots"))
 
 -- Capture the entire monitor output
-hl.bind("SUPER"
+hl.bind("SUPER" .. " + Print", hl.dsp.exec_cmd("hyprshot -m output -o ~/Pictures/Screenshots"))
+
+-- Bind SUPER + SHIFT + L to lock the screen instantly
+hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
+
+-- start hyperidle on start
+hl.on("hyprland.start", function()
+    hl.exec_cmd("hypridle")
+end)
+
