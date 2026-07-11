@@ -38,5 +38,6 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 -- start hyperidle on start
 hl.on("hyprland.start", function()
     hl.exec_cmd("hypridle")
+    hl.exec_cmd("waypaper --restore") -- to make wallpaper persistt
 end)
 
