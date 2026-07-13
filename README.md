@@ -71,6 +71,11 @@ sudo systemctl enable --now bluetooth.service
 sudo pacman -S less
 ```
 
+14. okular - pdf viewer
+```bash
+sudo pacman -S okular
+```
+
 # Setup
 
 ## Postman 
