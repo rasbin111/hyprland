@@ -19,7 +19,6 @@ hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({
 }))
 
 
--- NEW(impl on office pc)
 -- Capture a selected region and copy it directly to the clipboard
 hl.bind("" .. " + Print", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
 
@@ -38,6 +37,6 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 -- start hyperidle on start
 hl.on("hyprland.start", function()
     hl.exec_cmd("hypridle")
-    hl.exec_cmd("waypaper --restore") -- to make wallpaper persistt
+    hl.exec_cmd("waypaper --restore") -- to make wallpaper persist
 end)
 

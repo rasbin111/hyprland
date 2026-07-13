@@ -55,7 +55,15 @@ sudo pacman -S hypridle
 ```bash
 sudo pacman -S swayimg
 ```
+12. Bluetooth
+```bash
+sudo pacman -S bluez bluez-utils
 
+# Blueman - full-featured GTK applet, works great with Waybar
+sudo pacman -S blueman
+
+sudo systemctl enable --now bluetooth.service
+```
 
 # Setup
 
