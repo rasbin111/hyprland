@@ -55,6 +55,7 @@ sudo pacman -S hypridle
 ```bash
 sudo pacman -S swayimg
 ```
+
 12. Bluetooth
 ```bash
 sudo pacman -S bluez bluez-utils
@@ -63,6 +64,11 @@ sudo pacman -S bluez bluez-utils
 sudo pacman -S blueman
 
 sudo systemctl enable --now bluetooth.service
+```
+
+13. less
+```bash
+sudo pacman -S less
 ```
 
 # Setup
