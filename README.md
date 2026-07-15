@@ -75,6 +75,11 @@ sudo pacman -S less
 ```bash
 sudo pacman -S okular
 ```
+15. gimp - image editor 
+```bash
+sudo pacman -S gimp
+```
+
 
 # Setup
 
