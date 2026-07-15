@@ -75,9 +75,10 @@ sudo pacman -S less
 ```bash
 sudo pacman -S okular
 ```
-15. gimp - image editor 
+15. image editor - gimp, photoflare
 ```bash
 sudo pacman -S gimp
+sudo pacman -S photoflare
 ```
 
 
