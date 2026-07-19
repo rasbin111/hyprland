@@ -81,6 +81,11 @@ sudo pacman -S gimp
 sudo pacman -S photoflare
 ```
 
+16. Neovim UI - for opening files 
+```bash
+sudo pacman -S neovide
+```
+
 
 # Setup
 
