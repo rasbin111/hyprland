@@ -94,6 +94,11 @@ sudo pacman -S apache
 ab -n 1000 -c 50 -l https://thepgwolf.com/
 ```
 
+18. lazygit - git TUI 
+```bash
+sudo pacman -S lazygit
+```
+
 
 # Setup
 
