@@ -86,6 +86,14 @@ sudo pacman -S photoflare
 sudo pacman -S neovide
 ```
 
+17. Apache package - Website performance measurement
+```bash
+sudo pacman -S apache
+
+# Usage
+ab -n 1000 -c 50 -l https://thepgwolf.com/
+```
+
 
 # Setup
 
