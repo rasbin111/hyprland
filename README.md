@@ -36,14 +36,17 @@ sudo pacman -S hyprpaper
 
 yay -S waypaper
 ```
+
 8. Hyprshot - Screenshot
 ```bash
 sudo pacman -S hyprshot
 ```
+
 9. Treesiter CLI - for neovim Treesiter
 ```bash
 sudo pacman -S tree-sitter-cli
 ```
+
 10. Screenlock
 For hyprlock we need ~/.conf/hypr/hyprlock.conf
 ```bash
@@ -98,6 +101,25 @@ ab -n 1000 -c 50 -l https://thepgwolf.com/
 ```bash
 sudo pacman -S lazygit
 ```
+
+19. docker 
+```bash
+sudo pacman -S docker docker-compose
+
+# enable/start
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+
+# add user to docker group
+sudo usermod -aG docker $USER
+
+# apply new group memebership, immediately
+newgrp docker
+
+# verify installation
+docker info
+```
+
 
 
 # Setup
