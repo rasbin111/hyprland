@@ -1,5 +1,10 @@
 # Packages
 
+0. Vey essential - Brightness
+```
+sudo pacman -S brightnessctl
+```
+
 1. Fuzzel - application launcher
 ```bash
 sudo pacman -S fuzzel
